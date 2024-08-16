@@ -1,3 +1,4 @@
+/* Ejercicio a */
 var cantidadDeGatos = 10
 
 var caradegato1 = "😺"
@@ -13,20 +14,5 @@ for (var i=1; i<=cantidadDeGatos;i++) {
         console.log("Gato #" + i + ":" + caradegato3) 
 }
 
-/*   for(var j=1; j<=3;j++){
-        var n = i
-        var e = n + 1
-        var p = e + 1
-        console.log("Gato #" + n + ":" + caradegato1)
-        if(n!==10){
-            console.log("Gato #" + e + ":" + caradegato2)
-            console.log("Gato #" + p + ":" + caradegato3)
-        j = 3
-    }
-    }
-    i++ 
-    i++
-    
-} */ 
-
+/* Ejercicio b */
 
