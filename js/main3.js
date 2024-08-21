@@ -1,15 +1,23 @@
-/* Ejercicio C */
+console.log("---------Ejercicio C---------")
 
-console.log("-----Ejercicio C-----");
+/* Ejercicio c */
 
+var cantidadDeGatos = 10;
+var cantidadDePasos = 5;
 
-var cantidadDeGatos = 10
-var cantidadDePasos = 3
+for(var l=1 ; l<=cantidadDeGatos ; l++){
 
-for (var l = 1; l <= cantidadDeGatos; l++) {
     var pasos = ""
-    for (var k = 0; k < cantidadDePasos; k++) {
+
+    for(var z=0 ; z<=cantidadDePasos ; z++){
         pasos += "🐾"
     }
-    l % 2 == 0 ? console.log('Gato #' + l + ": 🐈" + '⬛' + pasos) : console.log('Gato #' + l + ": 🐈" + pasos)
+
+    if(l % 2 ==0){ 
+        console.log("Gato #" + l + ":🐈" + "⬛" + pasos)
+    }
+
+    else{
+        console.log("Gato #" + l + ":🐈" + pasos)
+    }
 }

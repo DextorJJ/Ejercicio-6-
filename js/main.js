@@ -26,44 +26,6 @@ for (var i=1 ; i<=cantidadDeGatos ; i++){
     
 }
 
-console.log("---------Ejercicio B---------")
 
-/* Ejercicio b */
 
-var cantidadDeGatos = 5;
-var cantidadDePasos = 4;
 
-for(var j=1 ; j<=cantidadDeGatos ; j++){
-
-    var pasos = ""
-
-    for(var z=0 ; z<=cantidadDePasos ; z++){
-        pasos += "🐾"
-    }
-
-    console.log("Gato #" + j + ":🐈" + pasos)
-}
-
-console.log("---------Ejercicio C---------")
-
-/* Ejercicio c */
-
-var cantidadDeGatos = 10;
-var cantidadDePasos = 5;
-
-for(var l=1 ; l<=cantidadDeGatos ; l++){
-
-    var pasos = ""
-
-    for(var z=0 ; z<=cantidadDePasos ; z++){
-        pasos += "🐾"
-    }
-
-    if(l % 2 ==0){ 
-        console.log("Gato #" + l + ":🐈" + "⬛" + pasos)
-    }
-
-    else{
-        console.log("Gato #" + l + ":🐈" + pasos)
-    }
-}
